@@ -33,8 +33,25 @@ We need to use an Android Studio version that SUPPORTS THE USE OF DATA BINDING L
 1. Surround all the view hierarchy defined in XML with the tag <layout>
 2. Inside this new XML you can have a section called <data> where you declare your variables
 
-  <img width="595" alt="image" src="https://user-images.githubusercontent.com/66931789/185508037-452db757-6986-471e-ac70-5ec6f6bdba0b.png">
+<img width="595" alt="image" src="https://user-images.githubusercontent.com/66931789/185508037-452db757-6986-471e-ac70-5ec6f6bdba0b.png">
 
+## Member Access (Data Binding Expressions)
+  
+It will find the first item that matches the following pattern:
+1. A public method with a named prefixed by get
+2. A public method with a name
+3. A public field with a name
+  
+<img width="513" alt="image" src="https://user-images.githubusercontent.com/66931789/185508288-cf4b0064-c3b9-403e-9cb0-2916e44d2c31.png">
+
+If there's not a matching public member you will receive an data binding error on compilation. The error message will indicate it cannot find an accessor. 
+
+<img width="582" alt="image" src="https://user-images.githubusercontent.com/66931789/185508422-e4dd70db-6d21-4ca9-946f-1779a126a929.png">
+
+ 
+  
+  
+  
   
   
 
