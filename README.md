@@ -107,9 +107,9 @@ The expression language is not designed for object creation, so you'll not be ab
 <img width="888" alt="image" src="https://user-images.githubusercontent.com/66931789/185512485-e990716b-d155-4d54-be58-bf48c3369656.png">
 
 
-
-
-
+**We can reference string resources inside EXPRESSION LANGUAGE**
+  
+<img width="1227" alt="image" src="https://user-images.githubusercontent.com/66931789/185513112-9d41ca7f-f487-4f49-ae2d-ec4923808c56.png">
 
 
 
